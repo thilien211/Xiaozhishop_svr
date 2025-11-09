@@ -40,5 +40,6 @@ Tắt tiến trình:
 ```bash
 kill $(pgrep -f xiaozhi.py)
 ```
-(Tùy chọn) Khởi động cùng hệ thống
+(Tùy chọn) Khởi động cùng hệ thống:
+
 Em lười quá nhờ các bác hỏi AI ạ 😀
