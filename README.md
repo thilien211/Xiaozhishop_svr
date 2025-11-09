@@ -19,4 +19,21 @@ Thực hiện cài requirements:
 ```bash
 pip install flask requests
 ```
-
+Chạy server:
+```bash
+python xiaozhi.py
+```
+(Tùy chọn) Chạy server trong nền và lưu log:
+```bash
+nohup python xiaozhi.py > xiaozhi.log 2>&1 &
+```
+Kiểm tra tiến trình:
+```bash
+ps aux | grep xiaozhi.py
+```
+Tắt tiến trình:
+```bash
+kill $(pgrep -f xiaozhi.py)
+```
+(Tùy chọn) Khởi động cùng hệ thống
+Em lười quá nhờ các bác hỏi AI ạ 😀
