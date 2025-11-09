@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 
 # ===== CẤU HÌNH API =====
 class Config:
-    PORT = int(os.getenv('PORT', 6000))  # Port khác với Xiaozhishop
+    PORT = int(os.getenv('PORT', 5005))  # Port khác với Xiaozhishop
     
     # Xiaozhishop config (nguồn chính)
     XIAOZHISHOP_HOST = os.getenv('XIAOZHISHOP_HOST', 'www.xiaozhishop.xyz')
