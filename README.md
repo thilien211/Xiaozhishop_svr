@@ -1,5 +1,6 @@
 
 ## 🚀 Cách cài xiaozhishop svr
+### 👉 Code được mod lại từ code của bác Trần Thương, E Cảm ơn bác đã chia sẻ code zingmp3 siêu hữu ích cho tất cả mọi người nhé! 🥰
 
 Git Clone repo trước:
 ```bash
