@@ -23,6 +23,11 @@ Chạy server:
 ```bash
 python xiaozhi.py
 ```
+Test server:
+```bash
+curl http://localhost:5005/stream_pcm?song=Đừng Làm Trái Tim Anh Đau
+```
+
 (Tùy chọn) Chạy server trong nền và lưu log:
 ```bash
 nohup python xiaozhi.py > xiaozhi.log 2>&1 &
